@@ -1,12 +1,6 @@
-import java.util.ArrayList;
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package solved;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 enum Color {
     RED, GREEN
@@ -147,7 +141,7 @@ class FancyVisitor extends TreeVis {
 }
 
 
-public class Solution {
+public class VisitorPattern {
 
     static Map<Integer, Integer> values = new HashMap<>();
     static Map<Integer, Color> colors = new HashMap<>();
